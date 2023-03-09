@@ -1,15 +1,13 @@
+import java.util.Scanner;
+// System.in : standard input stream
+// System.out : standard output stream
 public class Main {
-    public static int sum(int x, int y){
-        return x + y;
-    }
-    // Run start at main() method
     public static void main(String[] args) {
-        int i = 20;
-        int s;
-        char a;
+        Scanner input = new Scanner(System.in); // create Scanner object
+        System.out.print("x값 입력 : ");
+        double x = input.nextDouble();
 
-        s = sum(i, 10);
-        a = '?';
-        System.out.println(a);
+        double y = 3 * Math.pow(x, 2) + 2 * x - 1;
+        System.out.println("y값 : " + y);
     }
 }

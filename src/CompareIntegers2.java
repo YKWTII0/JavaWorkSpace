@@ -2,7 +2,7 @@ import java.awt.desktop.SystemEventListener;
 import java.util.Scanner; // 만들어져 있는 class를 사용하겠다는 뜻
 // System.in : standard input stream
 // System.out : standard output stream
-public class Main {
+public class CompareIntegers2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the first integer : ");
